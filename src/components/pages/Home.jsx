@@ -1,8 +1,7 @@
 import React from "react";
 import Hero from "../Hero";
-import Feature from "../feature";
+import Feature from "../Feature";
 import ProcessOverview from "../ProcessOverview";
-import Footer from "../Footer";
 
 const home = () => {
   return (
@@ -10,7 +9,6 @@ const home = () => {
       <Hero />
       <ProcessOverview />
       <Feature />
-      {/* <Footer /> */}
     </>
   );
 };
